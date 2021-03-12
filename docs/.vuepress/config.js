@@ -55,8 +55,8 @@ module.exports = {
         {
             title: '输出层',
             children: [
-                ['/FAQ/Console/A001','#A001_VuePress'],
-                ['/FAQ/Console/A002','#A002_插件清单']
+                ['/ios/sourcecode/source1','#A001_VuePress'],
+                ['/ios/sourcecode/source3','#A002_插件清单']
             ]
         },
         ['/ios/','百科首页'],
