@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: /img/logo.jpg
-heroText: Wiki 100
-tagline: Meet 1000 Books & Unit Them Into 1 Wiki
+heroImage: /img/icon.jpg
+heroText: 小博客
+tagline: 秋风瑟瑟的小剑豪
 actionText: Get Wiki →
-actionLink: /FAQ/
+actionLink: /ios/
 features:
 - title: Wiki - 求索
   details: 基于书签对知识点进行 整理，吸收，吐纳，归档。吾将上下而求索...
