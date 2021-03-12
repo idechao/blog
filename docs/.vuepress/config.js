@@ -35,7 +35,6 @@ module.exports = {
 
     // 侧边栏菜单( 一个模块对应一个菜单形式 )
     sidebarDepth: 4, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
-    lastUpdated: 'Last Updated' ,// 文档更新时间：每个文件git最后提交的时间,
     sidebar: {
       // 打开FAQ主页链接时生成下面这个菜单
       '/ios/':[
@@ -76,6 +75,26 @@ module.exports = {
         },
       ]
     },
+
+    // 右上角链接、假定是 GitHub. 同时也可以是一个完整的 GitLab URL
+    repo: 'https://github.com/idechao/blog',
+    // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
+    // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
+    repoLabel: 'GitHub',
+    // 以下为可选的编辑链接选项
+    // 假如你的文档仓库和项目本身不在一个仓库
+    // 即【3.本地pc端存储A、B，将A、B推送至github1（私有）、将C推送至github2（公开）】
+    docsRepo: 'https://github.com/idechao/blog',
+    // 假如文档不是放在仓库的根目录下：
+    docsDir: 'docs',
+    // 假如文档放在一个特定的分支下：
+    docsBranch: 'source',
+    // 默认是 false, 设置为 true 来启用
+    editLinks: false,
+    // 默认为 "Edit this page"
+    editLinkText: 'Git EditLink [Private]',
+    // 文档更新时间：每个文件git最后提交的时间,
+    lastUpdated: 'Last Updated' ,
   },
 
   
