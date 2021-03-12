@@ -1,5 +1,6 @@
 module.exports = {
   title: '小博客',
+  dest: '../dist',  // 这里打包地址配置到blog的同级目录，方便单独上传
   description: '维基百科',
   // 注入到当前二面的html <head>  标签
   head: [
