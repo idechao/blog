@@ -25,6 +25,14 @@ module.exports = {
       { text: '随笔', link: '/thought/' },
       // 多项，下拉形式
       {
+        text: '技术点',
+        items: [
+          // link：指向链接也可以是外网链接
+          { text: 'electron', link: '/electron/' },
+        ]
+      },
+      // 多项，下拉形式
+      {
         text: '其他',
         items: [
           // link：指向链接也可以是外网链接
