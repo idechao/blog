@@ -63,6 +63,20 @@ webPreferences: {
 }
 ```
 
+## 嵌入网页
+
+正常操作流程，根据electron的BrowserView，直接设置mainWindow的BrowserView:
+```js
+var BrowserView = electron.BrowserView //引入BrowserView
+var view = new BrowserView()   //new出对象
+mainWindow.setBrowserView(view)   // 在主窗口中设置view可用
+view.setBounds({x:0,y:100,width:1200, height:800})  //定义view的具体样式和位置
+view.webContents.loadURL('https://jspang.com')  //wiew载入的页面
+```
+
+这有有个坑，需要先setBrowserView，然后再去做setBounds和loadURL操作，测试的时候，有时候会无法加载
+
+
 ## 错误处理
 
 ### Electron Security Warning 

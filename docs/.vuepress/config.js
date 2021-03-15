@@ -81,7 +81,9 @@ module.exports = {
               ['/thought/YearReview/2019','2019年']
             ]
         },
-      ]
+      ],
+      '/electron': [],
+      
     },
 
     // 右上角链接、假定是 GitHub. 同时也可以是一个完整的 GitLab URL
