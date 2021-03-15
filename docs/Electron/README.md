@@ -1,4 +1,4 @@
-# Electron
+# Electron 入门
 
 ## 引入node模块
 
@@ -75,18 +75,3 @@ view.webContents.loadURL('https://jspang.com')  //wiew载入的页面
 ```
 
 这有有个坑，需要先setBrowserView，然后再去做setBounds和loadURL操作，测试的时候，有时候会无法加载
-
-
-## 错误处理
-
-### Electron Security Warning 
-
-运行报如下警告：
-```js
-Electron Security Warning (Insecure Content-Security-Policy) This renderer process has either no Content Security
-```
-可以直接在main文件上面，添加个忽略：
-
-```js
-process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true'
-```

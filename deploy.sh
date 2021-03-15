@@ -4,8 +4,6 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-echo "Hello World !"
-
 target_dir=$(dirname "$PWD") 
 target_path="${target_dir}/dist"
 

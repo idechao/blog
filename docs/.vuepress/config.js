@@ -82,8 +82,22 @@ module.exports = {
             ]
         },
       ],
-      '/electron': [],
-      
+      '/electron': [
+        ['/electron/','Electron'],
+        //多级菜单形式
+        {
+            // 菜单名
+            title: 'Electron分类',
+            // 子菜单
+            children: [
+                // ['','']=>[路径,标题]
+                // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
+                // 不以 '/' 结尾的就是指向.md文件             
+                ['/electron/base/base','基础入门'], // '/ios/sourcecode/source1.md'文件
+                ['/electron/error/error','错误总结']
+            ]
+        }
+      ]
     },
 
     // 右上角链接、假定是 GitHub. 同时也可以是一个完整的 GitLab URL
