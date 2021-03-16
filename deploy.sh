@@ -6,12 +6,35 @@ set -e
 
 target_dir=$(dirname "$PWD") 
 target_path="${target_dir}/dist"
+cd $target_path
+echo ${PWD}
 
-echo $target_path
+git init
+git add .
+git commit -m "update files content"
 
-git remote set-url origin git@github.com:idechao/blog.git
+if [ $? -eq 0 ]; then
+  echo 'git commit successful'
+else 
+  echo 'git commit failed'
+fi
+
+git remote add origin git@github.com:idechao/blog.git
+
+if [ $? -eq 0 ]; then
+  echo 'origin url add successful'
+else 
+  echo 'origin url add failed'
+fi
+
 git push origin master -f
 
-echo '成功部署到远端仓库'
+if [ $? -eq 0 ]; then
+  echo 'push origin successful'
+else 
+  echo 'push origin failed'
+fi
+
+echo 'deploy successful'
 
 
