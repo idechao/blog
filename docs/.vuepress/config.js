@@ -71,6 +71,21 @@ module.exports = {
         ['/ios/Pool/SkillStack','技术栈'],
         ['/ios/Pool/Review','归去来']
       ],
+      '/books/':[
+        ['/books/','读书感悟'],
+        //多级菜单形式
+        {
+            // 菜单名
+            title: '记录',
+            // 子菜单
+            children: [
+                // ['','']=>[路径,标题]
+                // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
+                // 不以 '/' 结尾的就是指向.md文件             
+                ['/books/biography/美国陷阱','美国陷阱'] // '/ios/sourcecode/source1.md'文件
+            ]
+        }
+      ],
       // 打开Thought主页链接时生成下面这个菜单
       '/thought/':[
         ['/thought/','随笔首页'],
