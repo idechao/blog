@@ -28,6 +28,7 @@ module.exports = {
         text: '技术点',
         items: [
           // link：指向链接也可以是外网链接
+          { text: '博客发布', link: '/blog/' },
           { text: 'electron', link: '/electron/' },
         ]
       },
@@ -97,7 +98,7 @@ module.exports = {
             ]
         },
       ],
-      '/electron': [
+      '/electron/': [
         ['/electron/','Electron'],
         //多级菜单形式
         {
@@ -109,9 +110,25 @@ module.exports = {
                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                 // 不以 '/' 结尾的就是指向.md文件             
                 ['/electron/base/base','基础入门'], // '/ios/sourcecode/source1.md'文件
+                ['/electron/base/开发记录','开发记录'], // '/ios/sourcecode/source1.md'文件
                 ['/electron/error/error','错误总结']
             ]
         }
+      ],
+      '/blog/': [
+        ['/blog/','博客相关'],
+        //多级菜单形式
+        // {
+        //   // 菜单名
+        //   title: 'Blog开发方式',
+        //   // 子菜单
+        //   children: [
+        //       // ['','']=>[路径,标题]
+        //       // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
+        //       // 不以 '/' 结尾的就是指向.md文件             
+        //       // ['/blog/writeBlog','日常开发'], // '/ios/sourcecode/source1.md'文件
+        //   ]
+        // }
       ]
     },
 
