@@ -96,7 +96,10 @@ module.exports = {
               ['/thought/YearReview/2018','2018年'],
               ['/thought/YearReview/2019','2019年']
             ]
-        },
+        }, {
+          title: '新mac配置',
+          path: '/thought/other/new-mac',
+      },
       ],
       '/electron/': [
         ['/electron/','Electron'],
