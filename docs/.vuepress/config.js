@@ -99,7 +99,10 @@ module.exports = {
         }, {
           title: '新mac配置',
           path: '/thought/other/new-mac',
-      },
+        }, {
+          title: 'WebStorm配置nodejs环境',
+          path: '/thought/other/webstorm+nodejs',
+        },
       ],
       '/electron/': [
         ['/electron/','Electron'],
