@@ -45,5 +45,6 @@
 - sourcetree - git管理
 - ihost - host工具
 - reveal - ios层级分析利器
+- sketch - 视觉分析软件
 
 
