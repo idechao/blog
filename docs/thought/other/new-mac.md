@@ -34,6 +34,7 @@
 - Bartender or Dozer - mac状态栏管理
 - mindnode - 思维导图
 - HyperDock - mac系统软件
+- Boom 3D - 音效
 
 ## 开发软件
 
@@ -46,5 +47,6 @@
 - ihost - host工具
 - reveal - ios层级分析利器
 - sketch - 视觉分析软件
+- WebStorm - web/js开发
 
 
