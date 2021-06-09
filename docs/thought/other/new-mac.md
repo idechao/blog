@@ -9,6 +9,43 @@
 4. git name、email配置，ssh key配置
 5. [git快捷键配置](https://blog.csdn.net/u013294097/article/details/88832749)
 
+### cocospods安装
+
+1. 安装rvm
+
+```
+curl -L get.rvm.io | bash -s stable 
+
+source ~/.bashrc
+
+source ~/.bash_profile
+
+source ~/.zshrc
+```
+
+2. 更新ruby源
+
+```
+gem sources --remove https://rubygems.org
+gem sources -a https://gems.ruby-china.com
+
+gem sources -l
+```
+
+3. 安装pods
+
+```
+sudo gem install cocoapods // 会安装到/sr/local/bin/pod下，可用 which pod命令查看
+pod setup // 更新本地pod索引
+```
+
+执行 `pod setup` 直接提示 `Setup completed`，然而啥也没有做，索引库也没有建立。
+
+查看repo，`pod repo list`，发现啥都没有，手动添加一下repo,
+
+```
+pod repo add github https://github.com/CocoaPods/Specs.git master
+```
 ## 操作设置
 
 1. 输入法切换，修改command+空格
