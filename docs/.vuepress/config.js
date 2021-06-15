@@ -50,15 +50,13 @@ module.exports = {
         //多级菜单形式
         {
             // 菜单名
-            title: '仓库名称',
+            title: 'iOS小工具',
             // 子菜单
             children: [
                 // ['','']=>[路径,标题]
                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                 // 不以 '/' 结尾的就是指向.md文件             
-                ['/ios/sourcecode/source1','ios文章1'], // '/ios/sourcecode/source1.md'文件
-                ['/ios/sourcecode/source2','ios文章2'],
-                ['/ios/sourcecode/source3','ios文章3']
+                ['/ios/tools/reveal','Reveal分析文件app结构'], // '/ios/sourcecode/source1.md'文件
             ]
         },
         {
