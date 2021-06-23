@@ -8,6 +8,8 @@
 3. iterm(brew install iterm2 --cask) + zsh，设置默认终端
 4. git name、email配置，ssh key配置
 5. [git快捷键配置](https://blog.csdn.net/u013294097/article/details/88832749)
+6. ts，ts-node
+
 
 ### cocospods安装
 
