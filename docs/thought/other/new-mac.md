@@ -74,6 +74,7 @@ pod repo add github https://github.com/CocoaPods/Specs.git master
 - mindnode - 思维导图
 - HyperDock - mac系统软件
 - Boom 3D - 音效
+- JustFocus - 专注软件
 
 ## 开发软件
 
