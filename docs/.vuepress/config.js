@@ -99,6 +99,9 @@ module.exports = {
         }, {
           title: 'WebStorm配置nodejs环境',
           path: '/thought/other/webstorm+nodejs',
+        }, {
+          title: 'git日常使用',
+          path: '/thought/other/git',
         },
       ],
       '/electron/': [
