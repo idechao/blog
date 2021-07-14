@@ -57,6 +57,7 @@ module.exports = {
                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                 // 不以 '/' 结尾的就是指向.md文件             
                 ['/ios/tools/reveal','Reveal分析文件app结构'], // '/ios/sourcecode/source1.md'文件
+                ['/ios/tools/xcode','Xcode疑难杂症'],
             ]
         },
         {
