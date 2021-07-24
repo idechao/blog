@@ -84,7 +84,7 @@ pod repo add github https://github.com/CocoaPods/Specs.git master
 - xcode
 - xscope - 测量软件
 - [Go2Shell](https://github.com/Breathleas/Go2Shell)
-- charles - 抓包
+- charles & proxyman - 抓包
 - safari technology preview - 网页调试
 - sourcetree - git管理
 - ihost - host工具
