@@ -5,10 +5,9 @@
 1. 安装[nvm](https://njafei.github.io/2018/03/23/nvm-install/)，或者[nvs](https://chair.antfin-inc.com/advanced/nodejs/nvs.html)
 2. 安装node
 2. brew
-3. iterm(brew install iterm2 --cask) + zsh，设置默认终端
-4. git name、email配置，ssh key配置
-5. [git快捷键配置](https://blog.csdn.net/u013294097/article/details/88832749)
-6. ts，ts-node
+3. iterm(brew install iterm2 --cask) + zsh
+4. git配置
+5. ts，ts-node
 
 
 ### cocospods安装
@@ -93,4 +92,47 @@ pod repo add github https://github.com/CocoaPods/Specs.git master
 - sketch - 视觉分析软件
 - WebStorm - web/js开发
 
+## git相关
+
+name、email配置，ssh key配置
+
+### 公钥
+
+```
+// 生成
+ssh-keygen -t rsa -C "your_email@example.com"
+
+// 复制
+pbcopy < ~/.ssh/id_rsa.pub
+
+```
+
+### 快捷键配置
+
+参考：[链接](https://blog.csdn.net/u013294097/article/details/88832749)
+
+## zsh安装
+
+可参考[链接](https://blog.csdn.net/taurus_7c/article/details/115931601)，
+
+设置[默认终端](https://blog.csdn.net/wujunlei1595848/article/details/82218194)
+
+[隐藏命令行前面的用户名和主机名](https://blog.csdn.net/zmzwll1314/article/details/118410663)
+
+## VSCode安装code指令
+
+安装命令之后，可以直接使用 `code PATH` 的方式打开目录。如 `code .`
+
+方法：command+shift+p，然后输入code
+
+
+<img src='./image/new-mac-2.png'>
+
+## Fantastical添加苹果账户
+
+起码得添加个账户，否则无法添加事件。添加google日历也可以。
+
+进入到苹果账户管理页面，[https://appleid.apple.com/account/manage](https://appleid.apple.com/account/manage)，在安全模块下有App专用密码，点击生成，使用该密码登录。
+
+<img src='./image/new-mac-1.png'>
 
