@@ -50,15 +50,18 @@ pod repo add github https://github.com/CocoaPods/Specs.git master
 ```
 ## 操作设置
 
-1. 输入法切换，修改command+空格
+1. 输入法切换，修改command+空格: 点击输入法，进入键盘偏好设置，点击快捷键，选择左侧的输入法，输入command+空格，有冲突的直接去掉好了
 2. [启用三指拖拽](https://support.apple.com/zh-cn/HT204609)
 3. [字体大小调节](https://zhuanlan.zhihu.com/p/82412245)
 4. [电池显示百分比](https://www.jianshu.com/p/904e1e9710bd)
 5. [mac暖色调设置](https://jingyan.baidu.com/article/60ccbceb50823c64cab1978a.html)
-6. 命令行下，按方向键快速移动光标，调整按键重复为快
+6. 命令行下，按方向键快速移动光标，可以在系统偏好直接搜索按键重复，调整按键重复为快
+7. 放大功能，辅助功能下，勾选配合修饰健使用滚动收拾来缩放，样式选择画中画
 
 
 ## 应用软件
+
+- [MAC允许任何来源应用运行](https://www.jianshu.com/p/72ed5d2954e8)
 
 - chrome
 - Alfred
