@@ -119,6 +119,10 @@ pbcopy < ~/.ssh/id_rsa.pub
 
 [隐藏命令行前面的用户名和主机名](https://blog.csdn.net/zmzwll1314/article/details/118410663)
 
+主题切换参考[zsh切换主题](https://blog.csdn.net/qq_20924307/article/details/99873554), 个人还是比较喜欢`robbyrussell`，简单大气
+
+<img src='https://user-images.githubusercontent.com/49100982/108254738-764b8700-716c-11eb-9a59-4deb8c8c6193.jpg' />
+
 ## VSCode安装code指令
 
 安装命令之后，可以直接使用 `code PATH` 的方式打开目录。如 `code .`
