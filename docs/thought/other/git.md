@@ -1,5 +1,27 @@
 # git的日常使用
 
+## git撤销某次提交
+撤销某一次的提交，`revert`，会生成对应节点，再次提交一下
+
+```
+git revert  99f972a140d4597ce77d548f89f497bcffaa45df
+```
+
+## git从一个commit转移到另一个分支
+本文是从dev/join-corp分支一次commit提交到dev/bug-fix分支上，只需执行：
+git cherry-pick 新分支就可以了。
+
+<img src="https://img-blog.csdnimg.cn/20190603211351843.png" / >
+
+可参考：[git cherry-pick 教程](https://www.ruanyifeng.com/blog/2020/04/git-cherry-pick.html)
+
+
+## 回滚上一次merge操作
+
+```
+git reset --hard ORIG_HEAD
+```
+
 ## 从tag下拉取分支
 
 ```
