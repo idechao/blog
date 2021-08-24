@@ -104,6 +104,9 @@ module.exports = {
         }, {
           title: 'git日常使用',
           path: '/thought/other/git',
+        }, {
+          title: 'M1芯片Mac上Homebrew安装教程',
+          path: '/thought/other/brew',
         },
       ],
       '/electron/': [

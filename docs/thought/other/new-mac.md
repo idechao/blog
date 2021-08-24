@@ -123,12 +123,6 @@ pbcopy < ~/.ssh/id_rsa.pub
 
 <img src='https://user-images.githubusercontent.com/49100982/108254738-764b8700-716c-11eb-9a59-4deb8c8c6193.jpg' />
 
-## M1安装HomeBrew
-
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
 ## VSCode安装code指令
 
 安装命令之后，可以直接使用 `code PATH` 的方式打开目录。如 `code .`
