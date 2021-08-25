@@ -59,6 +59,7 @@ module.exports = {
                 ['/ios/tools/reveal','Reveal分析文件app结构'], // '/ios/sourcecode/source1.md'文件
                 ['/ios/tools/xcode','Xcode疑难杂症'],
                 ['/ios/tools/proxyman','抓包神器proxyman'],
+                ['/ios/tools/chisel','facebook的LLDB'],
             ]
         },
         {
