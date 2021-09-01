@@ -89,6 +89,7 @@ pod repo add github https://github.com/CocoaPods/Specs.git master
 - sourcetree - git管理
 - ihost - host工具
 - reveal - ios层级分析利器
+- [Lookin](https://lookin.work/) - ios层级分析利器，重点是免费~~~超好用
 - sketch - 视觉分析软件
 - WebStorm - web/js开发
 
