@@ -67,6 +67,7 @@ module.exports = {
             title: 'iOS基础',
             children: [
                 ['/ios/basis/NSURL','NSURL/NSURLComponents'],
+                ['/ios/basis/iphone-debug','iphone无证书真机调试'],
             ]
         },
         ['/ios/','百科首页'],
