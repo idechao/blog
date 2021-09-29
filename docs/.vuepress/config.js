@@ -70,9 +70,15 @@ module.exports = {
                 ['/ios/basis/iphone-debug','iphone无证书真机调试'],
             ]
         },
-        ['/ios/','百科首页'],
-        ['/ios/Pool/SkillStack','技术栈'],
-        ['/ios/Pool/Review','归去来']
+        {
+          title: 'iOS日常',
+          children: [
+              ['/ios/pool/banner3d','裸眼3d效果'],
+          ],
+        },
+        // ['/ios/','百科首页'],
+        // ['/ios/Pool/SkillStack','技术栈'],
+        // ['/ios/ool/Review','归去来'],
       ],
       '/books/':[
         ['/books/','读书感悟'],
