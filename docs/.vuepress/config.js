@@ -21,6 +21,7 @@ module.exports = {
       // 这里的'/' 指的是 docs文件夹路径
       // [以 '/' 结尾的默认指向该路径下README.md文件]
       { text: 'iOS', link: '/ios/' },  // http://localhost:8080/glog/ios/
+      { text: 'flutter', link: '/flutter/' },
       { text: '读书', link: '/books/' },
       { text: '随笔', link: '/thought/' },
       // 多项，下拉形式
@@ -80,6 +81,22 @@ module.exports = {
         // ['/ios/Pool/SkillStack','技术栈'],
         // ['/ios/ool/Review','归去来'],
       ],
+      '/flutter/':[
+        // ['/flutter/','flutter笔记'],
+        //多级菜单形式
+        {
+            // 菜单名
+            title: 'flutter基础',
+            // 子菜单
+            children: [
+                // ['','']=>[路径,标题]
+                // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
+                // 不以 '/' 结尾的就是指向.md文件             
+                ['/flutter/basic/flutter-basic','flutter基础'],
+                ['/flutter/basic/flutter-faq','flutter错误记录'],
+            ]
+        },
+      ],
       '/books/':[
         ['/books/','读书感悟'],
         //多级菜单形式
@@ -91,7 +108,7 @@ module.exports = {
                 // ['','']=>[路径,标题]
                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                 // 不以 '/' 结尾的就是指向.md文件             
-                ['/books/biography/美国陷阱','美国陷阱'] // '/ios/sourcecode/source1.md'文件
+                ['/books/biography/美国陷阱','美国陷阱'], // '/ios/sourcecode/source1.md'文件
             ]
         }
       ],
