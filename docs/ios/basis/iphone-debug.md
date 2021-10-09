@@ -14,7 +14,7 @@
 
 需改`Bundle Identifier`，这里主要不能和别人一样的，所以如果是本地测试，那就长一点好了
 
-<img src='https://upload-images.jianshu.io/upload_images/2204039-d3b06e28e4b96c34.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp'>
+<img src='https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d845f08ce3bc4ad9a621788926910767~tplv-k3u1fbpfcp-watermark.awebp?'>
 
 ## 信任开发者
 

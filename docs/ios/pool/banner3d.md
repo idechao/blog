@@ -16,7 +16,7 @@
 attitude属性解释
 如下图坐标系，其中绕 x 轴运动称作 pitch（俯仰），绕 y 轴运动称作 roll（滚转），绕 z 轴运动称作 yaw（偏航）
 
-<img src='https://upload-images.jianshu.io/upload_images/1000992-b8d68345159a24ee.png?imageMogr2/auto-orient/strip|imageView2/2/w/760/format/webp' />
+<img src='https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6f8c0f0df459467b859a0e03b179f33b~tplv-k3u1fbpfcp-watermark.awebp?' />
 
 ## 链接
 
