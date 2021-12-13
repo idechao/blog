@@ -75,6 +75,7 @@ module.exports = {
           title: 'iOS日常',
           children: [
               ['/ios/pool/banner3d','裸眼3d效果'],
+              ['/ios/daily/tableviewcellRefresh.md','UITableView只更新高度不更新内容'],
           ],
         },
         // ['/ios/','百科首页'],

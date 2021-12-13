@@ -17,3 +17,6 @@ https://lookin.work/faq/integration-guide/
 <img src="./image/lookin.png" >
 
 增加这个架构之后，如果是pod依赖的，那有可能项目会运行报错，需要把pod下其他项目也设置对应的arm64架构.
+
+> 注意：
+> 使用断点来使用的情况下，只能应用于模拟器。如果想真机，可以使用podfile的方式来集成，可以添加的debug模式下
